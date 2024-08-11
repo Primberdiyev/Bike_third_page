@@ -29,7 +29,9 @@ class _MyWidgetState extends State<ButtonsWidget> {
                   Color(0xFF4E4AF2),
                 ], begin: Alignment.topLeft, end: Alignment.bottomRight)),
             child: TextButton(
-              style: TextButton.styleFrom(padding: EdgeInsets.zero),
+              style: TextButton.styleFrom(
+                padding: EdgeInsets.zero
+                ),
               onPressed: () {
                 setState(() {
                   counter += 1;
@@ -66,12 +68,12 @@ class _MyWidgetState extends State<ButtonsWidget> {
               });
             },
             child: SizedBox(
-                width: 16,
-                child: Text(
-                  '---',
-                  style: TextStyle(
-                      color: const Color(0xFFFFFFFF).withOpacity(0.6)),
-                )),
+              width: 16,
+              child: Divider(
+                thickness: 2,
+                color: const Color(0xFFFFFFFF).withOpacity(0.6),
+              ),
+            ),
           ),
         ],
       ),

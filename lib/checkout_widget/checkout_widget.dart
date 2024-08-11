@@ -7,7 +7,7 @@ class CheckoutWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: const EdgeInsets.only(top: 10),
+      margin: const EdgeInsets.only(top: 20),
       width: 174,
       height: 44,
       decoration: const BoxDecoration(

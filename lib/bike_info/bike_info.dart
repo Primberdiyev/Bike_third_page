@@ -38,6 +38,7 @@ class BikeInfo extends StatelessWidget {
             ),
           ],
         ),
+        const SizedBox(height: 8),
         Divider(
           thickness: 0.5,
           color: const Color(0xFFFFFFFF).withOpacity(0.2),
